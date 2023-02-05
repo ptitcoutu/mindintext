@@ -17,9 +17,15 @@ There are three kinds of data source:
 In software development sometimes we distinguish commands and events to talk about input and output of operations and state to talk about a snapshot of collected event data at a given time (see CQRS architecture).
 But in human activities we've got another element to consider which is contextual data and the fact that the data come from outside or inside this context.
 
-
-
-
-## Data storage 
-
-## Data processing 
+## Data storage
+### Paper and brain storage
+### In memory storage
+### Simple file storage
+### Document Storage and bigdata storage
+### Relational Storage
+### Graph Storage
+### Olap Storage
+## Data processing
+### Correlations and Aggregation
+### Simple analysis
+### Simulation and prediction
