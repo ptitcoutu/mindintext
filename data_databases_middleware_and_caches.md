@@ -13,8 +13,10 @@ There are three kinds of data source:
 * data provided as input or captured as output of an operation
 * knowledge or what we call "facts"
 * data deduced from captured data and or knowledge
+
 In software development sometimes we distinguish commands and events to talk about input and output of operations and state to talk about a snapshot of collected event data at a given time (see CQRS architecture).
 But in human activities we've got another element to consider which is contextual data and the fact that the data come from outside or inside this context.
+
 
 
 
