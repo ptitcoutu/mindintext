@@ -26,7 +26,16 @@ But in human activities we've got another element to consider which is contextua
 ### Graph Storage
 ### Olap Storage
 ## Data processing
+### Simple view
 ### Correlations and Aggregation
+You can join data at different levels:
+- historically data are "joined" at the database level
+- in some cases you can join data at the client level
+- some architecture like federated query or backend for frontend add an intemediary service between client and service.
+
+What's the advantage and pitfall of joining data in client side ?
+- the main advantage is the ability to decouple the microservices. For example you could have a service to manage comments on a business entity and have several entities. Both services are no more interelated so you can improve comment management without impact on business entities and you can have more business entities without changing the comment service.
+
 ### Simple analysis
 ### Simulation and prediction
 ## Data Migration
