@@ -5,6 +5,8 @@ It's just ideas that I drop in several articles to cleanup aand clarify my mind.
 
 ### Software Development
 [data, databases, middleware and caches](data_databases_middleware_and_caches.md)
+### Software design and communication
+[diagramming tools](diagramming_tools.md
 ### Tools I dream to have
 ### Reflexion about team work, human relationships and management
 ### Reflexion about energy, resources and durable develoment if any
